@@ -1,0 +1,99 @@
+/* Global Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+}
+
+/* Main page container */
+.page-container {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Glass Card */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Inputs */
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #2a5298;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #2a5298;
+  color: white;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #1e3c72;
+}
+
+/* Secondary button */
+.btn-secondary {
+  background-color: #555;
+}
+
+.btn-secondary:hover {
+  background-color: #333;
+}
+
+/* Danger button */
+.btn-danger {
+  background-color: #d9534f;
+}
+
+.btn-danger:hover {
+  background-color: #b52b27;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
